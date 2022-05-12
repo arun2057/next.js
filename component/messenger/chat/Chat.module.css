@@ -1,0 +1,111 @@
+.container{
+    background-color: #696969; 
+    width: 66%;
+    color: #fff;
+    
+    margin-left: 2rem;
+    border-radius: .3rem;
+}
+.chat__header__section{
+   display: flex;
+  align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 0 2rem;
+    
+}
+.chat__header__avatar{
+display: flex;
+align-items: center;
+}
+.chat__header__name{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.MenuIcon{
+    width: 2.5rem;
+cursor: pointer;
+}
+
+.chat__footer__section{
+    width: 100%;
+ height: 5rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.chat__footer__top__section{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.input__container{
+    width: 100%;
+}
+.text__input{
+width: 80%;
+border: none;
+outline: none;
+background-color: var(--primary--grey);
+color: #fff;
+padding-left: 2rem;
+}
+.paperclip__icon{
+    width: 1.8rem;
+    cursor: pointer;
+
+}
+.message__icon{
+    width: 2.7rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+
+}
+.hr{
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* main chatting section
+* --------------
+*/
+.chat__content__section{
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+    height: calc((100vh - 19rem) - 10rem);
+    }
+
+.single__message__container{
+
+display: flex;
+margin-top: 1rem;
+
+    }
+.own__single__message__container{
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    align-self: flex-end;
+    background-color: red;
+    }
+    .single__message__text{
+        color: #fff;
+        background-color: #000;
+        padding: .5rem;
+        border-radius: .3rem;
+
+    }
+
+/* testing   */

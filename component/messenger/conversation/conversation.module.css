@@ -1,0 +1,123 @@
+.container{
+    width: 33%;
+    border-radius: .5rem;
+    background-color: var(--primary--grey);
+    height: calc(100vh - 19rem);
+}
+
+/* DMS SECTIONS  
+
+-------------------
+----------SEARCH SECTION------
+
+*/
+.top__section{
+
+    /* height: 9rem; */
+  border-bottom: 3px solid #000;
+
+}
+.dms__section{
+    display: flex;
+    margin-left: 2rem;
+  margin-left: 2rem;
+    justify-content: space-between;
+  
+}
+.dms__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 2rem;
+}
+.notification__image__container{
+    margin-top: 2rem;
+
+margin-right: 2rem;
+}
+.search__section{
+    margin-top: 1.5rem;
+display: flex;
+align-items: center;
+}
+.search__icon{
+    margin-left: 1.6rem;
+    width: 2.5rem;
+    opacity: 1 !important;
+
+}
+.search__section input{
+    width: 100%;
+    margin-right: 2rem;
+    padding-left: .9rem;
+    background-color: var(--primary--grey);
+    border: none;
+    outline: none;
+    letter-spacing: .1rem;
+    color: #fff;
+}
+.search__section input::placeholder{
+    font-size: 1.2rem;
+   font-weight: 200;
+}
+
+
+
+/* USERS LISTS
+---------------
+USERS INFROMATION
+*/
+
+.bottom__section{
+    /* height: 40rem; */
+    
+}
+
+.user{
+    margin-top: 1.5rem;
+   margin-left: 2rem;
+   display: flex;
+cursor: pointer;
+
+}
+.active{
+    background-color: #000;
+border-top-left-radius:.5rem ;
+border-bottom-left-radius:.5rem ;
+}
+.user__avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user__info{
+    width: 100%;
+
+display: flex;
+flex-direction: column;
+margin-left: 1rem;
+justify-content: center;
+color: #fff;
+}
+.user__name{
+    width: 100%;
+
+font-size: 1.4rem;
+font-weight: 600;
+}
+.recent__message{
+    width: 100%;
+
+}
+.recent__msg__time{
+    width: 100%;
+font-weight: 300;
+    text-align: right;
+    margin-right: 1rem;
+}

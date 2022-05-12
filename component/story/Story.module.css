@@ -1,0 +1,29 @@
+.story__section{
+    display: flex;
+  height: 8rem;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  }
+  .single__avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slide{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .avatar__name{
+    font-size: 1.3rem;
+    display: flex;
+    text-align: center;
+  color: #fff;
+    word-wrap: break-word;
+    width: 5rem;
+cursor: pointer;
+    
+    line-height: 1.3rem;
+  }

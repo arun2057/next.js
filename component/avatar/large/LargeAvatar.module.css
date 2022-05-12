@@ -1,0 +1,53 @@
+.container{
+    width: 100%;
+    display: flex;
+cursor: pointer;
+
+}
+
+.avatar__image{
+position: relative;
+width: 7rem;
+height: 7rem;
+}
+
+.devil__head{
+    position: absolute;
+    width: 7rem;
+    z-index: 10;
+}
+.user__image{
+    position: absolute;
+    width: 4rem;
+    top: 2rem;
+    left: 1.5rem;
+    z-index: 1;
+    border-radius: 50%;
+
+}
+
+/* USER AVATAR  1X 
+----------------------------------------------------- 
+VERY SMALL AVATAR
+*/
+.x1__avatar__image{
+position: relative;
+width: 5rem;
+height: 5rem;
+border: 1px solid green;
+}
+
+.x1__devil__head{
+    position: absolute;
+    width: 5rem;
+    z-index: 10;
+}
+.x1__user__image{
+    position: absolute;
+    width: 3rem;
+    top: 2rem;
+    left: 1.5rem;
+    z-index: 1;
+    border-radius: 50%;
+
+}

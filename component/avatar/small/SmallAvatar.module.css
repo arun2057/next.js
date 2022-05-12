@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    display: flex;
+cursor: pointer;
+
+}
+
+.avatar__image{
+position: relative;
+width: 5rem;
+height: 5rem;
+}
+
+.devil__head{
+    position: absolute;
+    width: 5rem;
+    z-index: 10;
+}
+.user__image{
+    position: absolute;
+    width: 2.8rem;
+    top: 1.4rem;
+    left: 1.1rem;
+    z-index: 1;
+    border-radius: 50%;
+
+}
+
+
