@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/public
+/images
+/BADAPP IMAGES
 /.pnp
 .pnp.js
 
